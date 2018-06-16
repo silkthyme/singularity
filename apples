@@ -1,0 +1,324 @@
+package bucky;
+import java.util.Scanner;
+
+class apples{
+	public static void main(String args[]) {
+		Scanner input = new Scanner(System.in);
+		tuna tunaObject = new tuna ();
+		System.out.println("Enter your name below: ");
+		String name = input.nextLine();
+		tunaObject.simpleMessage(name);
+		
+		Scanner input2 = new Scanner(System.in);
+		tuna tunaObject2 = new tuna ();
+		System.out.println("Where would you like to go? Your options are: Jasmine Forest, Fermi Gorge, or Honeysuckle Moor.");
+		String name2 = input2.nextLine();
+		tunaObject2.prompt2(name2);
+		
+		Scanner input3 = new Scanner(System.in);
+		tuna tunaObject3 = new tuna ();
+		System.out.println("What is your favorite animal?");
+		String name3 = input3.nextLine();
+		tunaObject3.prompt3(name3);
+		
+		Scanner input4 = new Scanner(System.in);
+		tuna tunaObject4 = new tuna ();
+		System.out.println("Would you like " + name3 + " to accompany you on your quest?");
+		String name4 = input4.nextLine();
+		tunaObject4.prompt4(name4);
+		
+		Scanner input5 = new Scanner(System.in);
+		tuna tunaObject5 = new tuna();
+		String name5 = input5.nextLine();
+		tunaObject5.prompt5(name5);
+		
+		Scanner input6 = new Scanner(System.in);
+		tuna tunaObject6 = new tuna ();
+		System.out.println("One goes west, toward the ocean, and the other goes east, toward the mountains.");
+		System.out.println("Which one do you take?");
+		String name6 = input6.nextLine();
+		tunaObject6.prompt6(name6);
+		
+		Scanner input7 = new Scanner(System.in);
+		tuna tunaObject7 = new tuna();
+		String name7 = input7.nextLine();
+		tunaObject7.prompt7(name7);
+		
+		Scanner input8 = new Scanner(System.in);
+		tuna tunaObject8 = new tuna();
+		String name8 = input8.nextLine();
+		tunaObject8.prompt8(name8);
+		
+		Scanner input9 = new Scanner(System.in);
+		tuna tunaObject9 = new tuna();
+		System.out.println("Two chidren are laughing and chasing each other in a meadow to your right. Greet them.");
+		String name9 = input9.nextLine();
+		tunaObject9.prompt9(name9);
+		
+		Scanner input10 = new Scanner(System.in);
+		tuna tunaObject10 = new tuna();
+		System.out.println("You grin sheepishly. Blurt something out to make the kids forget about you and let you continue on your way.");
+		String name10 = input10.nextLine();
+		tunaObject10.prompt10(name10);
+		
+		Scanner input11 = new Scanner(System.in);
+		tuna tunaObject11 = new tuna();
+		System.out.println("You take a half-hearted step back. Try apologizing?");
+		String name11 = input11.nextLine();
+		tunaObject11.prompt11(name11);
+		
+		Scanner input12 = new Scanner(System.in);
+		tuna tunaObject12 = new tuna();
+		String name12 = input12.nextLine();
+		tunaObject12.prompt12(name12);
+		
+		Scanner input13 = new Scanner(System.in);
+		tuna tunaObject13 = new tuna();
+		String name13 = input13.nextLine();
+		tunaObject13.prompt13(name13);
+		
+		Scanner input14 = new Scanner(System.in);
+		tuna tunaObject14 = new tuna();
+		System.out.println("You promise to heed her warning. Say thanks and goodbye.");
+		String name14 = input14.nextLine();
+		tunaObject14.prompt14(name14);
+		
+		Scanner input15 = new Scanner(System.in);
+		tuna tunaObject15 = new tuna();
+		System.out.println("Ask why.");
+		String name15 = input15.nextLine();
+		tunaObject15.prompt15(name15);
+		
+		Scanner input16 = new Scanner(System.in);
+		tuna tunaObject16 = new tuna();
+		System.out.println("You are confused by his ominous advice.");
+		System.out.println("Anxious to keep moving, you nod and turn away. Type 'proceed' to continue.");
+		String name16 = input16.nextLine();
+		tunaObject16.prompt16(name16);
+		
+		Scanner input17 = new Scanner(System.in);
+		tuna tunaObject17 = new tuna();
+		System.out.println("Will you take the left path, the right path, or the middle path?");
+		String name17 = input17.nextLine();
+		tunaObject17.prompt17(name17);
+		
+		Scanner input18 = new Scanner(System.in);
+		tuna tunaObject18 = new tuna();
+		System.out.println("Type 'proceed' to continue.");
+		String name18 = input18.nextLine();
+		tunaObject18.prompt18(name18);
+		
+		Scanner input19 = new Scanner(System.in);
+		tuna tunaObject19 = new tuna();
+		System.out.println("You stumble upon a sick leopard. It is dying of heat stroke. Do something!");
+		String name19 = input19.nextLine();
+		tunaObject19.prompt19(name19);
+		
+		Scanner input20 = new Scanner(System.in);
+		tuna tunaObject20 = new tuna();
+		System.out.println("You feel sorry for the poor beast, so you call out for the dryads' assistance. How many dryads will you summon?");
+		String name20 = input20.nextLine();
+		tunaObject20.prompt20(name20);
+		
+		Scanner input21 = new Scanner(System.in);
+		tuna tunaObject21 = new tuna();
+		System.out.println("The mockingbirds deliver your message to the dryads, who come and heal the leopard.");
+		System.out.println("Say something to express your gratitude.");
+		String name21 = input21.nextLine();
+		tunaObject21.prompt21(name21);
+		
+		Scanner input22 = new Scanner(System.in);
+		tuna tunaObject22 = new tuna();
+		System.out.println("The leopard nuzzles you in farewell, then sprints into a dense grove of blackwood elms.");
+		System.out.println("Type 'proceed' to continue.");
+		String name22 = input22.nextLine();
+		tunaObject22.prompt22(name22);
+		
+		Scanner input23 = new Scanner(System.in);
+		tuna tunaObject23 = new tuna();
+		System.out.println("A rare ambrosia fruit lies on the ground. What do you do: put it in your pocket or eat it?");
+		String name23 = input23.nextLine();
+		tunaObject23.prompt23(name23);
+		
+		Scanner input24 = new Scanner(System.in);
+		tuna tunaObject24 = new tuna();
+		System.out.println("Type 'look' to examine the appendages more closely.");
+		String name24 = input24.nextLine();
+		tunaObject24.prompt24(name24);
+		
+		Scanner input25 = new Scanner(System.in);
+		tuna tunaObject25 = new tuna();
+		System.out.println("Type 'unfold' to figure out what they are.");
+		String name25 = input25.nextLine();
+		tunaObject25.prompt25(name25);
+		
+		Scanner input26 = new Scanner(System.in);
+		tuna tunaObject26 = new tuna();
+		System.out.println("Take off?");
+		String name26 = input26.nextLine();
+		tunaObject26.prompt26(name26);
+		
+		Scanner input27 = new Scanner(System.in);
+		tuna tunaObject27 = new tuna();
+		System.out.println("Terrified, you scream and flail your legs.");
+		String name27 = input27.nextLine();
+		tunaObject27.prompt27(name27);
+		
+		Scanner input28 = new Scanner(System.in);
+		tuna tunaObject28 = new tuna();
+		System.out.println("Fight? You'll surely lose! Quick, say something to appease the teen.");
+		String name28 = input28.nextLine();
+		tunaObject28.prompt28(name28);
+		
+		Scanner input29 = new Scanner(System.in);
+		tuna tunaObject29 = new tuna();
+		System.out.println("Type 'fly' to fly away while you still have the chance.");
+		String name29 = input29.nextLine();
+		tunaObject29.prompt29(name29);
+		
+		Scanner input30 = new Scanner(System.in);
+		tuna tunaObject30 = new tuna();
+		System.out.println("Type 'down' to descend.");
+		String name30 = input30.nextLine();
+		tunaObject30.prompt30(name30);
+		
+		Scanner input31 = new Scanner(System.in);
+		tuna tunaObject31 = new tuna();
+		System.out.println("Type 'proceed' to continue.");
+		String name31 = input31.nextLine();
+		tunaObject31.prompt31(name31);
+		
+		Scanner input32 = new Scanner(System.in);
+		tuna tunaObject32 = new tuna();
+		System.out.println("Ask the farmhand for directions back to the main road.");
+		String name32 = input32.nextLine();
+		tunaObject32.prompt32(name32);
+		
+		Scanner input33 = new Scanner(System.in);
+		tuna tunaObject33 = new tuna();
+		System.out.println("You are shocked by the man's wretched state. Pity engulfs your heart, and you agree to free him.");
+		System.out.println("Type 'free' to break his shackles.");
+		String name33 = input33.nextLine();
+		tunaObject33.prompt33(name33);
+		
+		Scanner input34 = new Scanner(System.in);
+		tuna tunaObject34 = new tuna();
+		System.out.println("You regret breaking the man's shackles. Say something to stop his evil intentions!");
+		String name34 = input34.nextLine();
+		tunaObject34.prompt34(name34);
+		
+		Scanner input35 = new Scanner(System.in);
+		tuna tunaObject35 = new tuna();
+		System.out.println("You are horrified.");
+		String name35 = input35.nextLine();
+		tunaObject35.prompt35(name35);
+		
+		Scanner input36 = new Scanner(System.in);
+		tuna tunaObject36 = new tuna();
+		System.out.println("You know you have sinned, and must repent. Type a repentance to the gods.");
+		String name36 = input36.nextLine();
+		tunaObject36.prompt36(name36);
+		
+		Scanner input37 = new Scanner(System.in);
+		tuna tunaObject37 = new tuna();
+		System.out.println("Type 'proceed' to continue.");
+		String name37 = input37.nextLine();
+		tunaObject37.prompt37(name37);
+		
+		Scanner input38 = new Scanner(System.in);
+		tuna tunaObject38 = new tuna();
+		System.out.println("Type 'look' to look up.");
+		String name38 = input38.nextLine();
+		tunaObject38.prompt38(name38);
+		
+		Scanner input39 = new Scanner(System.in);
+		tuna tunaObject39 = new tuna();
+		System.out.println("The rodent is bloody and mangled. You kick it away with disgust.");
+		System.out.println("Type any key to continue.");
+		String name39 = input39.nextLine();
+		tunaObject39.prompt39(name39);
+		
+		Scanner input40 = new Scanner(System.in);
+		tuna tunaObject40 = new tuna();
+		System.out.println("Ask them if they know the directions back to the main road.");
+		String name40 = input40.nextLine();
+		tunaObject40.prompt40(name40);
+		
+		Scanner input41 = new Scanner(System.in);
+		tuna tunaObject41 = new tuna();
+		System.out.println("Type any key to hear her elaborate.");
+		String name41 = input41.nextLine();
+		tunaObject41.prompt41(name41);
+		
+		Scanner input42 = new Scanner(System.in);
+		tuna tunaObject42 = new tuna();
+		System.out.println("The old man's voice sounds familiar too! Think! Where have you heard their voices before?");
+		String name42 = input42.nextLine();
+		tunaObject42.prompt42(name42);
+		
+		Scanner input43 = new Scanner(System.in);
+		tuna tunaObject43 = new tuna();
+		System.out.println("No! It can't be...can it? Are these old people...");
+		System.out.println("Type 'proceed' to confirm your suspicion.");
+		String name43 = input43.nextLine();
+		tunaObject43.prompt43(name43);
+		
+		Scanner input44 = new Scanner(System.in);
+		tuna tunaObject44 = new tuna();
+		System.out.println("Ask how this is possible.");
+		String name44 = input44.nextLine();
+		tunaObject44.prompt44(name44);
+		
+		Scanner input45 = new Scanner(System.in);
+		tuna tunaObject45 = new tuna();
+		System.out.println("Type anything.");
+		String name45 = input45.nextLine();
+		tunaObject45.prompt45(name45);
+		
+		Scanner input46 = new Scanner(System.in);
+		tuna tunaObject46 = new tuna();
+		System.out.println("Beg them to forgive your transgressions.");
+		String name46 = input46.nextLine();
+		tunaObject46.prompt46(name46);
+		
+		Scanner input47 = new Scanner(System.in);
+		tuna tunaObject47 = new tuna();
+		System.out.println("Run.");
+		String name47 = input47.nextLine();
+		tunaObject47.prompt47(name47);
+		
+		Scanner input48 = new Scanner(System.in);
+		tuna tunaObject48 = new tuna();
+		System.out.println("Type 'look' to look up.");
+		String name48 = input48.nextLine();
+		tunaObject48.prompt48(name48);
+		
+		Scanner input49 = new Scanner(System.in);
+		tuna tunaObject49 = new tuna();
+		System.out.println("Type 'duck' to avoid impending mutilation.");
+		String name49 = input49.nextLine();
+		tunaObject49.prompt49(name49);
+		
+		Scanner input50 = new Scanner(System.in);
+		tuna tunaObject50 = new tuna();
+		System.out.println("Ahhhhhhflskdjfoiawewh!");
+		String name50 = input50.nextLine();
+		tunaObject50.prompt50(name50);
+		
+		Scanner input51 = new Scanner(System.in);
+		tuna tunaObject51 = new tuna();
+		System.out.println("Type 'proceed' to continue.");
+		String name51 = input51.nextLine();
+		tunaObject51.prompt51(name51);
+		
+		Scanner input52 = new Scanner(System.in);
+		tuna tunaObject52 = new tuna();
+		String name52 = input52.nextLine();
+		tunaObject52.prompt52(name52);
+	}
+}
+		
+
+/* System.in stands for system input 
+ * Variblename++ adds 1 to the variable
+ */
