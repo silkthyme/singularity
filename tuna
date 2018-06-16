@@ -1,0 +1,237 @@
+package bucky;
+
+import java.util.Scanner;
+
+public class tuna {
+	public void simpleMessage(String name) {
+		System.out.println("Hello " + name + "!");
+	}
+	
+	public void prompt2(String name2) {
+		System.out.println("You selected " + name2 + ".");
+		
+	}
+	
+	public void prompt3(String name3) {
+		System.out.println("Ah, the " + name3 + ", a magnificent specimen.");
+	}
+	
+	public void prompt4(String name4) {
+		System.out.println("You said " + name4 + ". Well, it doesn't matter. You must do this quest alone. Press any key to look around.");
+	}
+	
+	public void prompt5(String name5) {
+		System.out.println("You scan your surroundings. It looks like there are two paths branching out in front of you.");
+	}
+	
+	public void prompt6(String name6) {
+		System.out.println("You selected " + name6 + ". Interesting decision. Type 'proceed' to continue.");
+	}
+	
+	public void prompt7(String name7) {
+		System.out.println("You walk down the path. Wildflowers graze your ankles, dryads frolick in the trees, and");
+		System.out.println("the sweetness of summer drenches everything like a thick glaze. Type any key to continue.");
+	}
+	
+	public void prompt8(String name8) {
+		System.out.println("In the distance, you can see fields of saffron glinting magenta in the sunlight.");
+	}
+	
+	public void prompt9(String name9) {
+		System.out.println("The children stop laughing. They glance at each other, and then stare at you with cool eyes.");
+	}
+	
+	public void prompt10(String name10) {
+		System.out.println("Your utterance '" + name10 + "' is ignored. The children walk over.");
+	}
+	
+	public void prompt11(String name11) {
+		System.out.println("The children shake their heads. '" + name11 + "' isn't going to work, apparently.");
+	}
+	
+	public void prompt12(String name12) {
+		System.out.println("The children come nearer. One is a tall girl and the other is a boy with elven ears.");
+	}
+	
+	public void prompt13(String name13) {
+		System.out.println("The girl speaks: 'We know you're a stranger. Beware how long you spend here, for time passes more slowly for you than for us.'");
+	}
+	
+	public void prompt14(String name14) {
+		System.out.println("'Wait!' the boy cries out. 'There is something else. Do not trust any humans besides us.'");
+	}
+	
+	public void prompt15(String name15) {
+		System.out.println("'Why? Because you will jump into the ravine rather than face the truth.'");
+	}
+	
+	public void prompt16(String name16) {
+		System.out.println("500 paces later, the path splits into three.");
+	}
+	
+	public void prompt17(String name17) {
+		System.out.println("You chose " + name17 + ".");
+	}
+	
+	public void prompt18(String name18) {
+		System.out.println("You walk down the path you selected. A bunch of little streams cut across the path. You don't bother");
+		System.out.println("avoiding them, since you're barefoot anyway and the water feels refreshing.");
+	}
+	
+	public void prompt19(String name19) {
+		System.out.println("You " + name19 + " and splash some water onto the leopard's pelt. The leopard hums deep in its chest.");
+	}
+	
+	public void prompt20(String name20) {
+		System.out.println("You trill a message to the mockingbirds, asking for " + name20 + " dryads.");
+	}
+	
+	public void prompt21(String name21) {
+		System.out.println("The dryads acknowledge your '" + name21 + ",' emit a golden luminescence, and flit away as quickly as they arrived.");
+	}
+	
+	public void prompt22(String name22) {
+		System.out.println("You keep walking forward until you reach a sharp bend in the path. It curves abruptly northwest.");
+	}
+	
+	public void prompt23(String name23) {
+		System.out.println("You " + name23 + ". The ambrosia fruit sputters and spits out two appendages covered with feathers.");
+	}
+	
+	public void prompt24(String name24) {
+		System.out.println("Upon closer examination, you find that the feathers are made out of green brocade.");
+	}
+	
+	public void prompt25(String name25) {
+		System.out.println("You unfold the layers of brocade. Wings! They even have straps for a human wearer. You affix the wings to your shoulders.");
+	}
+	
+	public void prompt26(String name26) {
+		System.out.println("You said " + name26 + ". To your surprise, the wings catch the wind of their own accord, and you soar into the air.");
+	}
+	
+	public void prompt27(String name27) {
+		System.out.println("'" + name27 + "?! Who said that?' An indignant voice shouts. To your left, a surly teenager is swiftly flying in your direction.");
+		System.out.println("The youth appears quite angry. 'Oi, you there! You stole my last ambrosia fruit! Now we must fight to the death.'");
+	}
+	
+	public void prompt28(String name28) {
+		System.out.println("You said '" + name28 + ".' The teen appears mollified.");
+		System.out.println("'All right, I'll let you off this once, since I can tell you're a stranger. But next time, I shall show no mercy.'");
+	}
+	
+	public void prompt29(String name29) {
+		System.out.println("You fly away for dear life. An updraft carries you high, higher than the clouds, but a strong downdraft carries you back down.");
+	}
+	
+	public void prompt30(String name30) {
+		System.out.println("You descend, gliding downward until you tumble into a haystack. You crawl out. You're standing in the middle of a saffron field.");
+	}
+	
+	public void prompt31(String name31) {
+		System.out.println("You approach a farmhand who is painstakingly harvesting saffron petals.");
+	}
+	
+	public void prompt32(String name32) {
+		System.out.println("You said '" + name32 + ".' The farmhand grunts, and slowly turns to face you. His demeanor drips with fatigue and misery.");
+		System.out.println("'I am a slave for the saffron plantation. Release me from my shackles,' he begs.");
+	}
+	
+	public void prompt33(String name33) {
+		System.out.println("The man's shackles fall to the ground. He shudders. His skin ripples in a wave like a sine graph, and tears of happiness pour from his eyes.");
+		System.out.println("'I'm free!' He exclaims gleefully. 'Now I can go back to hunting leopards and torturing deer!'");
+	}
+	
+	public void prompt34(String name34) {
+		System.out.println("Your plea '" + name34 + "' only serves to amuse the evil man.");
+		System.out.println("'Hahahahaha, imbecile. I must thank you for your stupidity. You have liberated me, and now I can never be brought to justice again.'");
+	}
+	
+	public void prompt35(String name35) {
+		System.out.println("The man disappears in a plume of smoke, leaving you beside the haystack where you discovered him.");
+	}
+	
+	public void prompt36(String name36) {
+		System.out.println("You repented by saying '" + name36 + ",' but you still feel the weight of guilt pressing down on your soul.");
+		System.out.println("You secretly question the existence of the gods.");
+	}
+	
+	public void prompt37(String name37) {
+		System.out.println("You elected to '" + name37 + ".' At this moment, a red-tailed hawk screeches overhead.");
+	}
+	
+	public void prompt38(String name38) {
+		System.out.println("You look up just in time to see a small rodent fall out of the hawk's talons and hit a clump of weeds next to your feet.");
+	}
+	
+	public void prompt39(String name39) {
+		System.out.println("An elderly couple approaches." );
+	}
+	
+	public void prompt40(String name40) {
+		System.out.println("The old woman speaks. Her voice sounds strangely familiar. 'If you wish to return to your original path, it is too late,' she says.");
+	}
+	
+	public void prompt41(String name41) {
+		System.out.println("'You will never return. You are a slave now. I tremble to behold all the sorrow you have wrought.'");
+		System.out.println("The old man speaks: 'We are deeply disappointed by this outcome. We hoped it wouldn't turn out this way.'");
+	}
+	
+	public void prompt42(String name42) {
+		System.out.println("You said '" + name42 + ".' Before you can put your finger on it, the old man reveals his identity.");
+		System.out.println("'We tried to warn you,' he says. 'In the beginning.'");
+	}
+	
+	public void prompt43(String name43) {
+		System.out.println("The old man and woman are the children you met at the start of your quest! One glance at the man's pointy, elven ears confirms this.");
+	}
+	
+	public void prompt44(String name44) {
+		System.out.println("The old woman speaks: 'How? We told you time passes more slowly for you than for us.'");
+		System.out.println("'While you were wreaking havoc upon the land, we were ravaged by the sands of time. Now we are old, and you are still young.'");
+	}
+	
+	public void prompt45(String name45) {
+		System.out.println("You said '" + name45 + "'. The old woman gazes at you, her eyes shining with symapthy.");
+		System.out.println("'We warned you not to trust any humans. You freed the villain, and now he is back to his slaughtering.");
+		System.out.println("You interfered with the natural passing of a suffering animal. Death is a passage from this brutal world, and you deprived the leopard of even that.'");
+		System.out.println("But of course, you are already aware of your sins.'");
+	}
+	
+	public void prompt46(String name46) {
+		System.out.println("You said '" + name46 + "'.");
+		System.out.println("The old man and woman smile mournfully, and shake their heads in unison.");
+		System.out.println("'We forgive you, but that does not remove the necessity of punishment.'");
+	}
+	
+	public void prompt47(String name47) {
+		System.out.println("The old man makes a peculiar gesture with his left hand. A screech sounds overhead.");
+	}
+	
+	public void prompt48(String name48) {
+		System.out.println("The same red-tailed hawk that dropped a carcass at your feet is flying down in a graceful arc, his talons raised.");
+		
+	}
+	
+	public void prompt49(String name49) {
+		System.out.println("You duck, but you are not fast enough to evade the hawk. The talons sink into your eyes, and your world is swallowed by excruiciating pain.");
+	}
+	
+	public void prompt50(String name50) {
+		System.out.println("Your eyes are completely gouged out.");
+	}
+	
+	public void prompt51(String name51) {
+		System.out.println("Five years pass, but 100 years have passed for the inhabitants of the land.");
+		System.out.println("You are blind. You are still a slave on the saffron plantation, and you will work until you die.");
+		System.out.println("It is a grueling life, but it is one you deserve. You did not understand when you were younger. Now you have come to terms with your fate.");
+	}
+	
+	public void prompt52(String name52) {
+		System.out.println("Thanks for playing!");
+		System.out.println("My first attempt at 2nd person POV surrealist fiction.");
+		System.out.println("-Copyright- Christina Huang 2018");
+	}
+	}
+
+// constructor must have the same name as the class
